@@ -1,0 +1,32 @@
+{
+  "name": "xmas-friend",
+  "version": "1.0.0",
+  "description": "find xmas friend for prarthana group",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "devstart": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jijukjose/xmas-friend.git"
+  },
+  "author": "Jiju K Jose",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jijukjose/xmas-friend/issues"
+  },
+  "homepage": "https://github.com/jijukjose/xmas-friend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.8"
+  }
+}
